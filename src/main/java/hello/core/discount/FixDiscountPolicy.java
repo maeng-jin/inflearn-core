@@ -7,7 +7,6 @@ import hello.core.member.Member;
  * 할인 정책 - 고정 할인 정책, 구현체
  */
 public class FixDiscountPolicy implements DiscountPolicy {
-
     private int discountFixAmount = 1000; // 1,000원 고정 할인
 
     @Override
