@@ -12,6 +12,9 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * 애플리케이션 동작에 필요한 구현 객체 생성 (생성과 실행 역할에 분리)
+ */
 @Configuration
 public class AppConfig {
 
